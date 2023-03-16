@@ -16,7 +16,7 @@ _C:\Users\victor\MyProjects\disciplinas\engenharia-de-software_
 
 Para que a equipe consiga começar a trabalhar no projeto é necessário que eles efetuem o clone do projeto em suas próprias máquinas, para isso devem executar o seguinte comando no local onde o repositório deve ser clonado.
 
-_git clone https://github.com/victorroatt/engenharia-de-software.git_
+`git clone https://github.com/victorroatt/engenharia-de-software.git`
 
 ### Branch
 
