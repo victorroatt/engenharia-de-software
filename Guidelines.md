@@ -20,9 +20,9 @@ _git clone https://github.com/victorroatt/engenharia-de-software.git_
 
 ### Branch
 
-Para evitar problemas na versão main, é necessário criar um branch para que torne mais fácil a modificação dos arquivos. Deve ser executado o seguinte comando na raiz do repositório, git branch “nome do branch”.
+Para evitar problemas na versão main, é necessário criar um branch para que torne mais fácil a modificação dos arquivos. Deve ser executado o seguinte comando na raiz do repositório, `git branch “nome do branch”`.
 
-_git branch criar-carrinho_
+`_git branch criar-carrinho_`
 
 ### Checkout
 
@@ -69,4 +69,3 @@ _git pull_
 O comando diff é utilizado para comparar fontes de dados do git, que podem ser commits, ramificações, arquivos e outros. Ou seja, ele compara mudanças locais com a versão do branch remoto do github em que você está trabalhando, e devolve no terminal todas as diferenças existentes entre ambos.
 
 _git diff_
-
