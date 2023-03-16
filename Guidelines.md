@@ -22,13 +22,13 @@ _git clone https://github.com/victorroatt/engenharia-de-software.git_
 
 Para evitar problemas na versão main, é necessário criar um branch para que torne mais fácil a modificação dos arquivos. Deve ser executado o seguinte comando na raiz do repositório, `git branch “nome do branch”`.
 
-`_git branch criar-carrinho_`
+`git branch criar-carrinho`
 
 ### Checkout
 
 Para navegar para o novo branch criado é necessário utilizar o comando checkout, dessa forma utilize o comando abaixo.
 
-_git checkout criar-carrinho_
+`git checkout criar-carrinho`
 
 ### Push
 
