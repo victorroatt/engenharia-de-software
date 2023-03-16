@@ -34,38 +34,38 @@ Para navegar para o novo branch criado é necessário utilizar o comando checkou
 
 Após terem sido feitas alterações no novo branch, no final do dia sempre devemos fazer um push das alterações feitas. Primeiramente é necessário adicionar todas as alterações para tornarem-se “staged”, com o seguinte comando:
 
-_git add ._
+`git add .`
 
 Agora que elas estão staged nós podemos criar uma captura do branch local através do comando commit. É necessário que sempre que o comitt seja efetuado, que uma mensagem seja escrita para identificação da equipe. Usamos o seguinte comando:
 
-_git commit -m “update guidelenes.doc”_
+`git commit -m “update guidelenes.doc”`
 
 Por último podemos finalmente efetuar o push do branch local para o branch remoto que toda equipe está trabalhando, com o seguinte comando.
 
-_git push origin criar-carrinho_
+`git push origin criar-carrinho`
 
 ### Merge
 
 Digamos que o branch criado para criar o carrinho tenha sido concluído e está funcionando corretamente no projeto atual. A próxima etapa então é fazer o merge do branch criar-carrinho no main branch. Primeiramente nós fazemos um checkout no main branch.
 
-_git checkout main_
+`git checkout main`
 
 Após isso executamos o comando de realizar o merge do branch criar-carrinho.
 
-_git merge criar-carrinho_
+`git merge criar-carrinho`
 
 E então fazemos um pull para sincronizar todas informações com o main no github, com o comando,
 
-_git push_
+`git push`
 
 ### Pull
 
 É importante executar o pull todo dia no começo do trabalho para pegar os últimos arquivos do github atualizados, para então trabalhar nos arquivos mais novos. Pode ser que conflitos sejam gerados com as duas diferentes versões de arquivos, esses conflitos precisam ser corrigidos manualmente. Assim rodamos o seguinte comando para pegar todos os arquivos.
 
-_git pull_
+`git pull`
 
 ### Diff
 
 O comando diff é utilizado para comparar fontes de dados do git, que podem ser commits, ramificações, arquivos e outros. Ou seja, ele compara mudanças locais com a versão do branch remoto do github em que você está trabalhando, e devolve no terminal todas as diferenças existentes entre ambos.
 
-_git diff_
+`git diff`
